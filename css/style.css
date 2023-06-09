@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
 
 @font-face {
      font-family: "batman";
@@ -91,23 +91,23 @@ body {
 }
 
 .conteudo-principal-escrito-texto {
-     font-family: 'Inter', sans-serif;
-     font-weight: 400;
-     font-size: 1.3em;
      color: #d7d4d4;
+     font-family: 'Roboto Mono', monospace;
+     font-weight: 400;
+     font-size: 15px;
 }
 
 .conteudo-principal-escrito-botao {
-     background-color: #000000dc;
-     color: #faed27;
-     width: 240px;
-     height: 60px;
+     background-color: rgba(0, 0, 0, 0.776);
      border: 1px solid #faec27cb;
-     box-shadow: #faec2725 0px 7px 29px 0px;
      border-radius: 12px;
-     font-family: 'Inter', sans-serif;
+     box-shadow: #faec2713 0px 9px 29px 0px;
+     color: #faed27;
+     height: 60px;
+     font-family: 'Roboto Mono', monospace;
      font-weight: 400;
-     font-size: 24px;
+     font-size: 22px;
+     width: 240px;
 }
 
 .conteudo-principal-escrito-botao:hover {
